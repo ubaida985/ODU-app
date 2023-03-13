@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+
+    <ScrollView
+        android:layout_width="178dp"
+        android:layout_height="178dp"
+        android:background="@color/midnight_Dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutFields"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Enter Age"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextGender"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Enter Male or Female"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextBMI"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Enter BMI"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextGenHealth"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Enter General Health Rating(0-10)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextPhysical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Enter Physical Health Rating (0-30)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextMental"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Enter Mental Health Rating (0-30)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextSleep"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Enter Sleep time in Hours"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextPhysicalAct"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you perform any physical activity?(Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextSmoke"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you smoke? (Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextAlcohol"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you consume Alcohol? (Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextStroke"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you have a history of stroke? (Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextWalking"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you have walking difficulty? (Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextDiabetes"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you have diabetes? (Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextAsthma"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you have asthama? (Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextKidney"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you have kidney problems? (Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <EditText
+                android:id="@+id/editTextSkin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@color/midnight"
+                android:hint="Do you have skin problems? (Yes or No)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_light"
+                android:textSize="@dimen/_5sdp" />
+
+            <Button
+                android:id="@+id/buttonResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get results!"
+                android:textAlignment="center"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
