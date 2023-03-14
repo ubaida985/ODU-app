@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Code/Projects/AndroidStudioProjects/__BOTSINRED/ODU/app/src/main/res/layout/abs_layout.xml" value="0.9908854166666666" />
         <entry key="..\:/Code/Projects/AndroidStudioProjects/__BOTSINRED/ODU/app/src/main/res/layout/activity_main.xml" value="0.4868421052631579" />
-        <entry key="..\:/Code/Projects/AndroidStudioProjects/__BOTSINRED/ODU/app/src/main/res/layout/activity_result.xml" value="0.1" />
+        <entry key="..\:/Code/Projects/AndroidStudioProjects/__BOTSINRED/ODU/app/src/main/res/layout/activity_result.xml" value="1.2" />
       </map>
     </option>
   </component>
